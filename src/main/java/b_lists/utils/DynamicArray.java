@@ -35,9 +35,9 @@ public class DynamicArray {
         return size;
     }
 
-    public int indexOf(int value){
+    public int indexOf(int target){
         for (int i = 0; i < size; i++) {
-            if (data[i] == value) {
+            if(data[i] == target){
                 return i;
             }
         }
